@@ -1,5 +1,5 @@
 # WpfImportXML
-1) Файл загружатся либо через Меню
+1)Файл загружатся либо через Меню
 
 <img src="https://github.com/olegmedv/WpfImportXML/blob/master/pics/2020-09-17%2016_19_15-.png">
 
@@ -11,7 +11,7 @@
 
 <img src="https://github.com/olegmedv/WpfImportXML/blob/master/pics/files.png">
 
-3) Редактирование осуществляется в отдельном окне
+3)Редактирование осуществляется в отдельном окне
 
 <img src="https://github.com/olegmedv/WpfImportXML/blob/master/pics/2020-09-17%2016_29_56.png">
 
