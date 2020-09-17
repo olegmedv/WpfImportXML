@@ -15,7 +15,7 @@
 
 <img src="https://github.com/olegmedv/WpfImportXML/blob/master/pics/2020-09-17%2016_29_56.png">
 
-4)Перед удаление появлется коно с вопросом о необходимости удаления
+4)Перед удалением появлется коно с вопросом о необходимости удаления
 
 <img src="https://github.com/olegmedv/WpfImportXML/blob/master/pics/2020-09-17%2016_32_24-.png">
 
