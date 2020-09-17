@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("button_pics/add.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("button_pics/del.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("button_pics/edit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("xml.ico")]
 
 
