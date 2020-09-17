@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfImportXML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfImportXML"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem x:Name="MenuAdd" Header="Import XML" Click="MenuAdd_Click" ></MenuItem>
+                <MenuItem Header="Edit" Click="MenuItem_Click" ></MenuItem>
+                <MenuItem Header="Delete" Click="MenuItem_Click_1" ></MenuItem>
+                <Separator />
+                <MenuItem Header="Exit" Click="MenuItem_Click_2"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel LastChildFill="True" Margin="0,25,0,0" >
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="5,5,5,0">
+                <Button x:Name="btn_Add" Click="btn_Add_Click" Width="87">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="button_pics\add.png" Width="15" Height="15"/>
+                        <TextBlock Text="Import XML" VerticalAlignment="Center" Margin="5,0,0,0" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn_Edit" Margin="5,0,0,0" Width="87" Click="btn_Edit_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="button_pics\edit.png" Width="15" Height="15"/>
+                        <TextBlock Text="Edit" VerticalAlignment="Center" Margin="5,0,0,0" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn_Del" Margin="5,0,0,0" Width="87" Click="btn_Del_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="button_pics\del.png" Width="15" Height="15"/>
+                        <TextBlock Text="Delete" VerticalAlignment="Center" Margin="5,0,0,0" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <DataGrid x:Name="DataGridXML" Margin="5" ItemsSource="{Binding}"></DataGrid>
+        </DockPanel>
+    </Grid>
+</Window>

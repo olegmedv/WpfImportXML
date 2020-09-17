@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clients>
+<Client 
+CARDCODE="12345667890" 
+STARTDATE="2018-07-19" 
+FINISHDATE="" 
+LASTNAME="Иванов"
+FIRSTNAME="Виталий" 
+SURNAME="Петрович" 
+GENDER="M" 
+BIRTHDAY="1980-01-01" 
+PHONEHOME="" 
+PHONEMOBIL="+7999-554-44-66" 
+EMAIL="vv@robotx.ru" 
+CITY="Калининградг" 
+STREET="Московскийпр-кт"
+HOUSE="40" 
+APARTMENT="2" 
+/>
+</Clients>
